@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Waad Mohamed Gad | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <img src="./assets/uni-logo.png" alt="University Logo" class="brand__logo">
+        <span class="brand__text" data-i18n="portfolio">Portfolio</span>
+      </a>
+        
+      <nav class="nav" aria-label="Primary">
+        <a href="#about" data-i18n="about_title">About</a>
+        <a href="#skills" data-i18n="skills_title">Skills</a>
+        <a href="#projects" data-i18n="projects_title">Projects</a>
+        <a href="#contact" data-i18n="contact_title">Contact</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Toggle dark mode">🌙</button>
+        <button id="langToggle" class="btn btn--ghost" type="button" aria-label="Switch language">AR</button>
+        <a class="btn" href="./assets/Waad Mohamed Gad.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobileMenu" hidden>
+      <div class="container mobileMenu__inner">
+        <a href="#about" class="mobileLink" data-i18n="about_title">About</a>
+        <a href="#skills" class="mobileLink" data-i18n="skills_title">Skills</a>
+        <a href="#projects" class="mobileLink" data-i18n="projects_title">Projects</a>
+        <a href="#contact" class="mobileLink" data-i18n="contact_title">Contact</a>
+        <div class="mobileMenu__actions">
+          <button id="themeToggleMobile" class="btn btn--ghost" type="button">🌙</button>
+          <button id="langToggleMobile" class="btn btn--ghost" type="button">AR</button>
+          <a class="btn" href="./assets/Waad Mohamed Gad.pdf  " target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="pill" data-i18n="hero_pill">Student Specializing in tourism and travel technology</p>
+          <h1 class="hero__title">
+            <span data-i18n="hero_hi">Hi, I'm</span>
+            <span class="hero__name" data-i18n="hero_name">Waad Mohamed Gad</span>
+          </h1>
+          <p class="hero__subtitle" data-i18n="hero_subtitle">
+            Certified Travel & Tourism Trainer (Amadeus) | Expert in Innovative Travel Experiences & Inclusive Tourism.
+          </p>
+          <div class="hero__cta">
+            <a class="btn" href="#projects" data-i18n="hero_btn_projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact" data-i18n="hero_btn_contact">Contact Me</a>
+          </div>
+          <div class="hero__meta">
+            <span class="metaItem">📍 <span data-i18n="hero_location">Cairo, Egypt</span></span>
+            <span class="metaItem">🎓 <span data-i18n="hero_degree">East Port Said University of Technology</span></span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="profile">
+            <div class="avatar">
+              <img src="assets/MY.jpeg" alt="Waad Mohamed" />
+            </div>
+            <div class="profile__info">
+              <h2 class="profile__name" data-i18n="hero_name">Waad Mohamed</h2>
+              <p class="profile__role" data-i18n="profile_role">Senior in industrial tourism and travel</p>
+              <div class="profile__links">
+                <a href="https://github.com/waadmohamedgad-web" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/waad-mohamed-gad-392268306" target="_blank">LinkedIn</a>
+                <a href="mailto:waadmohamedgad@gmail.com">Email</a>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__num">2</div>
+              <div class="stat__label" data-i18n="stat_projects">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">13</div>
+              <div class="stat__label" data-i18n="stat_certificates">Certificates</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">8</div>
+              <div class="stat__label" data-i18n="stat_internships">Internships</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="about_title">About Me</h2>
+        </div>
+        <div class="card">
+          <p data-i18n="about_text">
+            A Certified Travel & Tourism Trainer accredited by Amadeus Egypt...
+          </p>
+          <div class="grid2">
+            <div>
+              <h3 class="h3" data-i18n="about_highlights">Highlights</h3>
+              <ul class="list">
+                <li data-i18n="hl1">Blue Sky Travel</li>
+                <li data-i18n="hl2">Cairo International Airport</li>
+                <li data-i18n="hl3">New Jersey Travel</li>
+                <li data-i18n="hl4">EgyptAir Training Academy</li>
+                <li data-i18n="hl5">Ministry of Civil Aviation</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3" data-i18n="about_education">Education</h3>
+              <ul class="list">
+                <li>
+                  <strong data-i18n="edu1">East Port Said University of Technology</strong><br>
+                  <span data-i18n="edu1b">Tourism and Travel Program</span>
+                </li>
+                <li data-i18n="edu2"> Graduation: 2026</li>
+          
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="skills_title">Skills</h2>
+        </div>
+        <div class="chips">
+          <span class="chip">Amadeus Systems</span>
+          <span class="chip">PR</span>
+          <span class="chip">CRM</span>
+          <span class="chip">Operation Management</span>
+
+        </div>
+        <div class="grid3">
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_tech">Technical</h3>
+            <ul class="list">
+              <li>Amadeus GDS</li>
+              <li>Flight Ticketing</li>
+              <li>Tour Planning</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_tools">Tools</h3>
+            <ul class="list">
+              <li>Amadeus</li>
+              <li>Microsoft Office</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_soft">Soft Skills</h3>
+            <ul class="list">
+              <li data-i18n="soft1">Communication</li>
+              <li data-i18n="soft2">Problem-solving</li>
+              <li data-i18n="soft3">Time management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="projects_title">Projects</h2>
+        </div>
+        <div class="grid2">
+          <article class="project card">
+            <div class="project__thumb">
+              <img src="WhatsApp Image 2026-03-02 at 11.57.59 PM.jpeg" alt="Sinawy Project" />
+            </div>
+            <h3 class="h3">Sinawy</h3>
+            <p class="muted" data-i18n="p1_desc">Project description...</p>
+            <div class="project__tags">
+              <span class="tag">Reviving Sinai’s Identity</span>
+              <span class="tag">Tourism & Heritage</span>
+            </div>
+          </article>
+
+          <article class="project card">
+            <div class="project__thumb">
+              <img src="PHOTO.jpeg" alt="Smart Sensory Vision" />
+            </div>
+            <h3 class="h3">Smart vision museum</h3>
+            <p class="muted" data-i18n="p2_desc">Project description...</p>
+            <div class="project__tags">
+              <span class="tag">Accessible Tourism</span>
+              <span class="tag">Smart Solutions</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="contact_title">Contact</h2>
+        </div>
+        <div class="grid2">
+          <div class="card">
+            <h3 class="h3" data-i18n="contact_quick">Quick Links</h3>
+            <div class="contactLinks">
+              <a class="btn" href="mailto:waadmohamedgad@gmail.com">Email</a>
+              <a class="btn btn--ghost" href="https://linkedin.com/in/waad-mohamed-gad-392268306" target="_blank">LinkedIn</a>
+               <a href="https://github.com/waadmohamedgad-web" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <form class="card form" id="contactForm">
+            <label>
+              <span data-i18n="form_name">Your name</span>
+              <input required name="name" type="text" placeholder="Name" />
+            </label>
+            <label>
+              <span data-i18n="form_email">Your email</span>
+              <input required name="email" type="email" placeholder="email@example.com" />
+            </label>
+            <label>
+              <span data-i18n="form_message">Message</span>
+              <textarea required name="message" rows="5"></textarea>
+            </label>
+            <button class="btn" type="submit" data-i18n="form_send">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© <span id="year"></span> <span class="footerName" data-i18n="hero_name">Waad Mohamed Gad</span></span>
+        <a href="#home" class="toTop" data-i18n="back_to_top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
